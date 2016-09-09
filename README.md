@@ -9,7 +9,7 @@ You'll need to pip install the following modules
 (It's likely some will have already been installed): 
 <br>flask
 <br>forecastio
-<br>geopy.geocoders
+<br>geopy
 <br>os
 <br>dotenv
 
