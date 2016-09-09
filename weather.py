@@ -18,7 +18,6 @@ load_dotenv(find_dotenv())
 def get_weather(address):
     api_key = os.environ['FORECASTIO_API_KEY']
     geolocator = Nominatim()
-    #address = input("Location: ")
     location = geolocator.geocode(address)
     latitude = location.latitude
     longitude = location.longitude
