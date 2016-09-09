@@ -4,16 +4,6 @@ import os
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
-#api_key = os.environ['FORECASTIO_API_KEY']
-#latitude = 44.2726
-#longitude = -121.1739
-#address = input("Enter an address: ")
-
-#forecast = forecastio.load_forecast(api_key, lat, lng).currently()
-
-#print("{} and {}°".format(forecast.summary, forecast.temperature))
-
-#geolocator = Nominatim()
 
 def get_weather(address):
     api_key = os.environ['FORECASTIO_API_KEY']
