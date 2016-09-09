@@ -5,12 +5,14 @@ This is a project that was built as a learning experience for a class on www.One
 It's simply an example of how Flask works, and how I can use a python weather app that was built in the same class. 
 
 Dependencies:
-You'll need to pip install the following modules if you don't already have them:
-flask
-forecastio
-geopy.geocoders
-os
-dotenv
+You'll need to pip install the following modules
+(It's likely some will have already been installed): 
+<br>flask
+<br>forecastio
+<br>geopy.geocoders
+<br>os
+<br>dotenv
+
 
 In addition to that, you'll need to set up your own API keys at forecast.io.( https://developer.forecast.io/ )
 Once your API keys are set up, you need to create your own .env file, and save the keys in it. (It will go in your flask_app folder)
