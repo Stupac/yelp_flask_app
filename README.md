@@ -8,6 +8,8 @@ Dependencies:
 You'll need to pip install the following modules
 (It's likely some will have already been installed):
 <br>flask
+<br>yelp.oauth1_authenticator
+<br>yelp.client
 <br>forecastio
 <br>geopy
 <br>os
