@@ -14,6 +14,6 @@ def get_weather(address):
     forecast = forecastio.load_forecast(api_key, latitude, longitude).currently()
     summary = forecast.summary
     temperature = forecast.temperature
-    return "{} and {}° in {}".format(summary, temperature, location.address)
+    return "{} and {}° in {}".format(summary, temperature, address)
 
 #print(get_weather(api_key))
